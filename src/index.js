@@ -4,6 +4,7 @@ import { createRoot } from 'react-dom/client';
 import ComponentDetail from './ComponentDetail.js';
 import { Faker } from "@faker-js/faker";
 import ApprovalCard from "./ApprovalCard.js";
+import './style/App.css'
 
 const App = () => {
     return (
@@ -12,13 +13,13 @@ const App = () => {
                 <ComponentDetail author="Sam" timeAgo="Todat at 4:45PM" text={faker.lorem.words()} avatar={faker.image.avatar()} />
             </ApprovalCard>
             <ApprovalCard >
-                <ComponentDetail author="Sam" timeAgo="Todat at 4:45PM" text={faker.lorem.words()} avatar={faker.image.avatar()} />
+                <ComponentDetail author="Joe" timeAgo="Todat at 4:45PM" text={faker.lorem.words()} avatar={faker.image.avatar()} />
             </ApprovalCard>
             <ApprovalCard >
-                <ComponentDetail author="Sam" timeAgo="Todat at 4:45PM" text={faker.lorem.words()} avatar={faker.image.avatar()} />
+                <ComponentDetail author="Tad" timeAgo="Todat at 4:45PM" text={faker.lorem.words()} avatar={faker.image.avatar()} />
             </ApprovalCard>
             <ApprovalCard >
-                <ComponentDetail author="Sam" timeAgo="Todat at 4:45PM" text={faker.lorem.words()} avatar={faker.image.avatar()} />
+                <ComponentDetail author="Kat" timeAgo="Todat at 4:45PM" text={faker.lorem.words()} avatar={faker.image.avatar()} />
             </ApprovalCard>
         </div>
     )
